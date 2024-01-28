@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(/pics/sunset-3689760_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    margin: 100px auto;
+}
+.form{
+    border: 1px solid ;
+    border-radius: 10px;
+    width: 60vh;
+    margin: auto;
+    padding: 50px;
+    background-color:white;
+}
+
+#username, #password,#email, #password2{
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    border:1px solid black;
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+#log{
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    /* color: white; */
+    border-radius: 6px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #1877F2;
+}
+
+p{
+    font-size: small;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+
+}
